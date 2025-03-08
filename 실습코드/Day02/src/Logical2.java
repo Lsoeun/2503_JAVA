@@ -4,12 +4,12 @@ public class Logical2 {
         int num2 = 20;
 
         boolean flag = (num1 > 0) && (num2 > 0);
-        System.out.println(flag); // flag는 true
+        System.out.println(flag);
 
         flag = (num1 < 0) && (num2 > 0);
-        System.out.println(flag); // flag는 false
+        System.out.println(flag);
 
         flag = (num1 < 0) || (num2 > 0);
-        System.out.println(flag); // flag true
+        System.out.println(flag);
     }
 }
